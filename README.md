@@ -1,106 +1,114 @@
-Product List and Detail View
+# 📌 Product List & Detail Page
 
-Description
+## 📖 Overview
+This project is a **Product Listing and Detail Page** built using **React.js** and **Bootstrap**. Users can browse a list of products, search for a specific product, and view detailed information by clicking on a product.
 
-This project is a React-based web application that displays a list of products fetched from an API. Users can search for products, view product details, and add items to their cart. The UI has a dark theme, with a black background and light black cards.
+---
 
-Features
+## 🚀 Features
+### 🌟 Product Listing Page
+- Displays a grid of products fetched from an API.
+- Includes a **search bar** to filter products by name.
+- Each product card shows:
+  - **Image** 📸
+  - **Title** 🏷️
+  - **Price** 💲
+  - **Rating** ⭐
+  - **Description (truncated)** 📄
+- Clicking a product navigates to the **Product Detail Page**.
 
-Fetch and display a list of products from an API
+### 🔎 Search Functionality
+- **Real-time filtering**: Users can search products dynamically as they type.
+- **Case-insensitive** search.
 
-Search functionality to filter products by title
+### 📃 Product Detail Page
+- Displays a larger **product image**, **title**, **price**, and **full description**.
+- Users can **adjust quantity** using `+` and `-` buttons.
+- `Add to Cart` button with a success toast notification.
+- Back button to return to the **Product List** page.
 
-Clickable product cards that navigate to the product detail page
+---
 
-Display product details including image, title, price, rating, and description
+## 🛠️ Technologies Used
+- **React.js** ⚛️
+- **React Router** 🛤️
+- **Bootstrap** 🎨
+- **React Icons (Lucide & IoIcons)** 🚀
+- **React Toastify** 🔔
 
-Ability to adjust the quantity and add products to the cart
+---
 
-Technologies Used
+## 📂 Project Structure
+```
+📦 product-app
+ ┣ 📂 src
+ ┃ ┣ 📂 components
+ ┃ ┃ ┣ 📜 ProductList.js
+ ┃ ┃ ┣ 📜 ProductDetail.js
+ ┃ ┣ 📂 services
+ ┃ ┃ ┣ 📜 api.js
+ ┃ ┣ 📂 assets
+ ┃ ┣ 📜 App.js
+ ┃ ┣ 📜 index.js
+ ┣ 📜 package.json
+ ┣ 📜 README.md
+```
 
-React.js
+---
 
-React Router
+## ⚙️ Setup & Installation
+1️⃣ Clone the repository:
+```bash
+ git clone https://github.com/your-username/product-app.git
+```
 
-Bootstrap
+2️⃣ Navigate to the project folder:
+```bash
+ cd product-app
+```
 
-React Icons (Lucide React, React Icons)
+3️⃣ Install dependencies:
+```bash
+ npm install
+```
 
-Toast notifications
+4️⃣ Start the development server:
+```bash
+ npm start
+```
 
-Installation and Setup
+---
 
-Clone the repository:
+## 🎯 How to Use
+- **Browse products**: Scroll through the product list.
+- **Search for a product**: Type in the search bar to filter results.
+- **View details**: Click on a product card to see full details.
+- **Adjust quantity**: Use the `+` and `-` buttons in the detail page.
+- **Go back**: Click the **Back button** to return to the product list.
+- **Add to Cart**: Click the `Add to Cart` button to simulate adding a product to the cart.
 
-git clone <repository-url>
+---
 
-Navigate to the project directory:
+## 📸 Screenshots
+### 🎨 Product List Page
+![Product List](https://via.placeholder.com/800x400?text=Product+List+Page)
 
-cd product-list-app
+### 🛍️ Product Detail Page
+![Product Detail](https://via.placeholder.com/800x400?text=Product+Detail+Page)
 
-Install dependencies:
+---
 
-npm install
+## 👨‍💻 Author
+- **Ajay Chauhan**  
+- **GitHub**: [Ajju-Chauhan](https://github.com/Ajju-Chauhan)
 
-Start the development server:
+---
 
-npm start
+## 📜 License
+This project is **free to use** and does not require a license.
 
-File Structure
+---
 
-product-list-app/
-│── src/
-│   ├── components/
-│   │   ├── ProductList.js
-│   │   ├── ProductDetail.js
-│   ├── services/
-│   │   ├── api.js
-│   ├── App.js
-│   ├── index.js
-│── public/
-│── package.json
-│── README.md
+## 💡 Feedback & Contributions
+If you have any suggestions or improvements, feel free to **open an issue** or **submit a pull request**. 🚀
 
-API Integration
-
-The products are fetched using the fetchProducts function.
-
-The product details are fetched using the fetchProductById function.
-
-Search Functionality
-
-The search input filters products based on the title.
-
-Implemented with a controlled input state in ProductList.js.
-
-UI Customizations
-
-Dark theme with a black background and light black cards.
-
-White text for better readability.
-
-Search input with white placeholder text.
-
-Clickable product cards for navigation.
-
-Usage
-
-View the list of products on the homepage.
-
-Use the search bar to filter products.
-
-Click on a product to view its details.
-
-Adjust quantity and add the product to the cart.
-
-Deployment
-
-The project can be deployed on Netlify, Vercel, or any static hosting service supporting React.
-
-Author
-
-Ajay Chauhan
-
-License
-
-This project is licensed under the MIT License.
