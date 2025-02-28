@@ -42,7 +42,7 @@ This project is a **Product Listing and Detail Page** built using **React.js** a
 ```
 📦 product-app
  ┣ 📂 src
- ┃ ┣ 📂 components
+ ┃ ┣ 📂 pages
  ┃ ┃ ┣ 📜 ProductList.js
  ┃ ┃ ┣ 📜 ProductDetail.js
  ┃ ┣ 📂 services
@@ -91,10 +91,10 @@ This project is a **Product Listing and Detail Page** built using **React.js** a
 
 ## 📸 Screenshots
 ### 🎨 Product List Page
-![Product List](https://via.placeholder.com/800x400?text=Product+List+Page)
+![Product List](https://products-app-gamma-seven.vercel.app/)
 
 ### 🛍️ Product Detail Page
-![Product Detail](https://via.placeholder.com/800x400?text=Product+Detail+Page)
+![Product Detail](https://products-app-gamma-seven.vercel.app/products/2)
 
 ---
 
