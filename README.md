@@ -59,7 +59,7 @@ This project is a **Product Listing and Detail Page** built using **React.js** a
 ## ⚙️ Setup & Installation
 1️⃣ Clone the repository:
 ```bash
- git clone https://github.com/your-username/product-app.git
+ git clone https://github.com/Ajju-Chauhan/products-app.git
 ```
 
 2️⃣ Navigate to the project folder:
